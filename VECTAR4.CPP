@@ -42,12 +42,11 @@ int main()
         ull t=k+2;
         ull res = ((((2+k)/2)-1)*((2+k)/2));
         if((n-res>(t/2)))
-            cout<<t;
+            deb(t);
         else if((n-res<=(t/2)) && (n-res>0))
-            cout<<t-1;
+            deb(t-1);
         else
-            cout<<t-2;
-        cout<<endl;
+            deb(t-2);
     }
     return 0;
 }
